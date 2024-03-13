@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('assets/menu.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the background image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh;
+    margin: 0;
+}
+
+p {
+    color: #fff; /* Assuming a darker image, white text might stand out better */
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+ul li {
+    margin: 10px 0; /* Adjust spacing between buttons if needed */
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside buttons */
+}
+
+ul li a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Center the list items */
+ul {
+    text-align: center;
+}
